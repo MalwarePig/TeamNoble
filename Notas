@@ -1,0 +1,7 @@
+ionic g page pages/Rutinas --spec=false
+ionic g page pages/Calendario --spec=false
+ionic g page pages/Perfil --spec=false
+ionic g page pages/Menu --spec=false
+
+
+
