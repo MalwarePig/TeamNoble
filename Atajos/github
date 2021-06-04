@@ -1,0 +1,74 @@
+…or create a new repository on the command line
+
+echo "# TeamNoble" >> README.md
+git init                        // iniciarlizar actulizacion
+git add README.md               // que archivo subir
+git commit -m "first commit"    //nombre de la actulizacion
+
+git branch -M main
+git remote add origin https://github.com/MalwarePig/TeamNoble.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/MalwarePig/TeamNoble.git
+
+
+git branch -M main
+git push -u origin main
+
+womychan aqui
+
+
+
+
+
+================================================ WOMYCHAN =============================================
+
+=======================================================================
+                    --- I N I C I A L I Z A R --
+=======================================================================
+//cdm  -->>--->> //Git Bash
+cd desktop
+            > cd NAME-FILE
+                            >git init
+---------------------------------------
+>> git commit 
+            -Mi primer commit
+            esc esc : wq
+<<
+---------------------------------------
+=======================================================================
+                        --- C O M A N D O S --
+=======================================================================
+ls      -Comando para listar directorios y archivos
+pwd     -Ver en que rua de nuestro sitema esta posicionado el terminal
+---->>
+git init                -Inicizalir un proyeco nuevo
+git status              -Ver el estado de nuestros archivos //Red-noAdd//Green-Add
+git add                 -Agregar un archivo al stating area
+
+git add .		        -Agrega todos los archivos pendientes (red)
+git commit              -Crear un primer punto de control de nuestro código
+---->> 
+git config --global user.emal "arleth.mty@hotmail.com"
+git config --global user.name "Womychan"
+<<-----
+git log                 -Ver todos los commits que hemos creado 
+git checkout            -Revertir los cambios de los archivos
+git diff /namefile/     -Ver diferencias hechas en los archivos
+git commi -m "texto"	-Crar commit sin entrar al editor
+git branch		-Lista las versiones 
+git branch NAME		-Crea una nueva Version
+git checkout NAME	-Cambia a la Version NAME
+
+git remote add origin 
+=======================================================================
+
+
+----- Actualizar Archivos
+git pull - actulizaciones del proyecto
+
+
+----- subir Archivos
+git push - subir los documentos a git hub
