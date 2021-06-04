@@ -1,0 +1,7 @@
+{
+  "name": "Team Noble",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
