@@ -1,0 +1,1 @@
+ionic g page pages/menu --spec=false
