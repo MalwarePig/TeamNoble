@@ -1,9 +1,10 @@
 …or create a new repository on the command line
 
 echo "# TeamNoble" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
+git init                        // iniciarlizar actulizacion
+git add README.md               // que archivo subir
+git commit -m "first commit"    //nombre de la actulizacion
+
 git branch -M main
 git remote add origin https://github.com/MalwarePig/TeamNoble.git
 git push -u origin main
@@ -13,3 +14,5 @@ git push -u origin main
 git remote add origin https://github.com/MalwarePig/TeamNoble.git
 git branch -M main
 git push -u origin main
+
+womychan aqui
